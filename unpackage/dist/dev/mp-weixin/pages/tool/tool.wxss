@@ -1,0 +1,50 @@
+.main {
+  padding: 35rpx;
+}
+.main .title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #000;
+}
+.main .title::before {
+  content: '';
+  display: inline-block;
+  width: 10rpx;
+  background: #d73f31;
+  height: 20rpx;
+  margin-right: 10rpx;
+  vertical-align: baseline;
+}
+.main .toolList {
+  padding: 40rpx 0;
+}
+.main .toolList .li {
+  width: 33.33%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  vertical-align: top;
+  padding: 0 20rpx 20rpx;
+}
+.main .toolList .li image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 999rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.6);
+}
+.main .toolList .li .name {
+  font-size: 22rpx;
+  color: #080808;
+  padding-top: 10rpx;
+}
+

@@ -1,0 +1,353 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background: #ffe807;
+}
+.main .mid {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 40rpx 40rpx 0 0;
+  overflow: auto;
+}
+.main .mid .topMask {
+  width: 100%;
+  height: 280rpx;
+  position: relative;
+  background: #fff;
+}
+.main .mid .topMask swiper {
+  height: 100%;
+  padding: 20rpx 30rpx 0;
+}
+.main .mid .topMask swiper .swiper-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.main .mid .topMask swiper .swiper-item image {
+  width: 98%;
+  height: 98%;
+  border-radius: 20rpx;
+}
+.main .mid .topMask swiper .swiper-item .mask {
+  position: absolute;
+  width: 98%;
+  height: 98%;
+  top: 1%;
+  left: 1%;
+  background: rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 35rpx;
+  color: #fff;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  border-radius: 20rpx;
+}
+.main .mid .middle {
+  padding: 0 0 35rpx;
+  background: #fff;
+}
+.main .mid .middle .der {
+  width: 100%;
+  padding: 35rpx;
+  font-size: 28rpx;
+  border-bottom: 2rpx solid #f2f2f2;
+  color: #333;
+}
+.main .mid .middle .der .name {
+  font-size: 32rpx;
+  font-weight: bold;
+  padding-bottom: 10rpx;
+}
+.main .mid .middle .der .label {
+  font-size: 28rpx;
+  padding-bottom: 10rpx;
+  color: #fff;
+}
+.main .mid .middle .der .label .tags {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5rpx 10rpx;
+  border-radius: 10rpx;
+}
+.main .mid .middle .der .label .tags + .tags {
+  margin-left: 5rpx;
+}
+.main .mid .middle > .list {
+  border-top: 20rpx solid #f2f2f2;
+  padding: 0 35rpx 35rpx;
+}
+.main .mid .middle > .list .title {
+  font-size: 32rpx;
+  color: #333;
+  background: #fff;
+  padding: 20rpx 0;
+  width: 100%;
+  z-index: 999;
+  position: relative;
+}
+.main .mid .middle > .list .title::before {
+  content: '';
+  position: absolute;
+  width: 74rpx;
+  height: 12rpx;
+  background: -webkit-linear-gradient(right, #ffffff 0%, #ffcc03 100%);
+  background: linear-gradient(270deg, #ffffff 0%, #ffcc03 100%);
+  border-radius: 6rpx;
+  z-index: -1;
+  bottom: 25rpx;
+  left: 0;
+}
+.main .mid .middle > .list .numerical {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 22rpx;
+  color: #080808;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.main .mid .middle > .list .numerical .valList {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+}
+.main .mid .middle > .list .numerical .valList + .valList {
+  padding-top: 20rpx;
+}
+.main .mid .middle > .list .numerical .valList .valName {
+  width: 20%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.main .mid .middle > .list .numerical .valList .middle {
+  width: 80%;
+  padding: 0 10rpx;
+}
+.main .mid .middle > .list .numerical .valList .middle .per {
+  width: 100%;
+  height: 50rpx;
+  background: #c0c0c0;
+  position: relative;
+}
+.main .mid .middle > .list .numerical .valList .middle .per .act {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #c43529;
+}
+.main .mid .middle > .list .numerical .valList .valNum {
+  width: 20%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.main .mid .middle > .list .list .li {
+  width: 20%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  vertical-align: top;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 0 20rpx 0;
+}
+.main .mid .middle > .list .list .li.act .img {
+  border: 10rpx solid #ffcc03;
+}
+.main .mid .middle > .list .list .li .img {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10rpx solid #e6e6e6;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.main .mid .middle > .list .list .li .img image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.main .mid .middle > .list .name {
+  font-size: 32rpx;
+  color: #ffcc03;
+  padding-top: 10rpx;
+  text-align: center;
+}
+.main .mid .middle > .list .peoder {
+  padding-top: 20rpx;
+  font-size: 28rpx;
+  color: #323232;
+}
+.main .mid .middle > .list .intorLi {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 30rpx;
+}
+.main .mid .middle > .list .intorLi.disNone {
+  display: none;
+}
+.main .mid .middle > .list .intorLi .left {
+  width: 25%;
+  font-size: 28rpx;
+  color: #7f7f7f;
+}
+.main .mid .middle > .list .intorLi .right {
+  width: 75%;
+  font-size: 28rpx;
+  color: #333;
+}
+.main .mid .middle > .list .intorLi .right.r2 .font7 {
+  display: inline;
+}
+.main .mid .middle > .list .intorLi .right.r2 .font8 {
+  color: #ff0000;
+  display: inline;
+}
+.main .mid .middle > .list .lineup {
+  border-radius: 25rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.6);
+  padding: 20rpx;
+  background: -webkit-linear-gradient(45deg, #e1582e, #c6382e);
+  background: linear-gradient(45deg, #e1582e, #c6382e);
+}
+.main .mid .middle > .list .lineup .lineupName {
+  font-size: 28rpx;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+.main .mid .middle > .list .lineup .lineupList {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-top: 20rpx;
+}
+.main .mid .middle > .list .lineup .lineupList .left {
+  width: 50%;
+  height: 100%;
+}
+.main .mid .middle > .list .lineup .lineupList .left image {
+  width: 100%;
+  height: 400rpx;
+  border-radius: 25rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.6);
+}
+.main .mid .middle > .list .lineup .lineupList .right {
+  width: 50%;
+  height: 100%;
+  padding: 0 0 0 10rpx;
+}
+.main .mid .middle > .list .lineup .lineupList .right .peoName {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 24rpx;
+  padding-bottom: 10rpx;
+}
+.main .mid .middle > .list .lineup .lineupList .right .skillList .skillImg {
+  width: 50%;
+  vertical-align: top;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-bottom: 20rpx;
+}
+.main .mid .middle > .list .lineup .lineupList .right .skillList .skillImg image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 999rpx;
+  border: 2rpx solid #ffaa00;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.6);
+}
+.main .mid .middle > .list .lineup .comment {
+  color: #fff;
+  font-size: 24rpx;
+  padding-top: 20rpx;
+}
+.main .mid .middle > .list .lineup .comment text {
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.main .mid .middle > .list .evaluateCnt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.main .mid .middle > .list .evaluateCnt + .evaluateCnt {
+  padding-top: 30rpx;
+}
+.main .mid .middle > .list .evaluateCnt .tit {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 32rpx;
+}
+.main .mid .middle > .list .evaluateCnt .tit.t1 {
+  color: #ffcc03;
+}
+.main .mid .middle > .list .evaluateCnt .tit.t2 {
+  color: #ff556e;
+}
+.main .mid .middle > .list .evaluateCnt .cnt {
+  -webkit-box-flex: 4;
+  -webkit-flex: 4;
+          flex: 4;
+  font-size: 28rpx;
+}
+

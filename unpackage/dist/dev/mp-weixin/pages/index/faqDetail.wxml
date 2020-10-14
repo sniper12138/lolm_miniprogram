@@ -1,0 +1,1 @@
+<view class="main"><view class="mid"><view class="title">{{datas.ans}}</view><view class="content"><jyf-parser class="vue-ref" vue-id="2015ab85-1" data-ref="article" bind:__l="__l"></jyf-parser></view></view><bomad vue-id="2015ab85-2" share="{{isShare}}" bind:__l="__l"></bomad></view>

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/faq",
+    "pages/index/giftBag",
+    "pages/index/faqDetail",
+    "pages/index/topDetail",
+    "pages/index/detail",
+    "pages/database/database",
+    "pages/database/peoDetail",
+    "pages/database/arms",
+    "pages/database/parts",
+    "pages/tool/tool",
+    "pages/tool/webView",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#333333",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "资讯",
+        "iconPath": "static/images/fot-icon1.png",
+        "selectedIconPath": "static/images/fot-icon1-hover.png"
+      },
+      {
+        "pagePath": "pages/database/database",
+        "text": "百科",
+        "iconPath": "static/images/fot-icon2.png",
+        "selectedIconPath": "static/images/fot-icon2-hover.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/images/fot-icon4.png",
+        "selectedIconPath": "static/images/fot-icon4-hover.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap96.json"
+}

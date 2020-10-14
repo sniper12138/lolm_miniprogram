@@ -1,0 +1,181 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+page .main {
+  padding: 0 15rpx;
+  width: 100%;
+  height: 100%;
+  overflow: hidden auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  background: #ffe006 url(http://cdn.tinytiger.cn/20200618/lolm-my-bg.png) no-repeat center bottom / 100% auto;
+}
+page .main::before {
+  content: '';
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  width: 600rpx;
+  height: 600rpx;
+  border-radius: 50%;
+  right: -320rpx;
+  top: -200rpx;
+}
+page .main .topMask {
+  width: 100%;
+  height: 180rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #ffe006;
+  z-index: 99;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  padding: 110rpx 0 0 20rpx;
+}
+page .main .topMask .title {
+  color: #000;
+  font-size: 36rpx;
+}
+page .main .topMask::before {
+  content: '';
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  width: 600rpx;
+  height: 600rpx;
+  border-radius: 50%;
+  right: -320rpx;
+  top: -200rpx;
+}
+page .main .mid {
+  padding: 220rpx 15rpx 0;
+}
+page .main .mid .list.flex {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 40rpx;
+}
+page .main .mid .list .title {
+  font-size: 30rpx;
+  color: #000;
+  padding: 20rpx 0 40rpx;
+  width: 100%;
+  z-index: 9;
+}
+page .main .mid .list .title text {
+  padding: 5rpx 25rpx;
+  border: 1rpx solid #caa100;
+  border-radius: 999rpx;
+}
+page .main .mid .list .recent {
+  padding-bottom: 20rpx;
+}
+page .main .mid .list .recent .li {
+  font-size: 28rpx;
+  padding: 15rpx 20rpx;
+  color: #ff556e;
+  background: #fff;
+  border-radius: 15rpx;
+}
+page .main .mid .list .recent .li + .li {
+  margin-top: 20rpx;
+}
+page .main .mid .list .btnList {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+page .main .mid .list .btnList .li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 33.33%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+page .main .mid .list .btnList .li .btn {
+  width: 80%;
+  border-radius: 25rpx;
+  background: #d73f31;
+  padding: 30rpx 0;
+  font-size: 28rpx;
+  color: #fff;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+page .main .mid .list .cntsMain {
+  background: #fff;
+  padding: 15rpx 20rpx;
+  border-radius: 15rpx;
+}
+page .main .mid .list .cntsMain .cnt {
+  font-size: 28rpx;
+  padding: 15rpx 0;
+}
+page .main .mid .list .cntsMain .cnt + .cnt {
+  border-top: 1rpx solid #ebedf0;
+}
+page .main .mid .list .cntsMain .cnt.btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+}
+page .main .mid .list .cntsMain .cnt.btn .btnText text {
+  display: block;
+}
+page .main .mid .list .cntsMain .cnt.btn::after {
+  content: '';
+  width: 100rpx;
+  height: 100%;
+}
+page .main .mid .list .cntsMain .cnt.btn::before {
+  content: '';
+  position: absolute;
+  width: 20rpx;
+  height: 20rpx;
+  border: 5rpx solid #969799;
+  border-width: 5rpx 5rpx 0 0;
+  -webkit-transform: rotate(45deg) translateY(-50%);
+          transform: rotate(45deg) translateY(-50%);
+  right: 50rpx;
+  top: 50%;
+}
+

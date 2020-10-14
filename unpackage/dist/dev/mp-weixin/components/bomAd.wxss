@@ -1,0 +1,62 @@
+.tabbar {
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 10rpx 0 100rpx;
+}
+.tabbar.flexCom {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.tabbar.flexCom .btn {
+  margin: 0 1%;
+  width: 31%;
+}
+.tabbar.flexCom .btn + .btn {
+  margin-top: 0;
+}
+.tabbar .btn {
+  width: 580rpx;
+  padding: 20rpx 0;
+  border-radius: 999rpx;
+  font-size: 36rpx;
+  color: #333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  border: 2rpx solid #ffcc03;
+  line-height: initial;
+  text-decoration: none;
+}
+.tabbar .btn::after {
+  border: none;
+}
+.tabbar .btn + .btn {
+  margin-top: 20rpx;
+}
+.tabbar .btn.share {
+  background: -webkit-linear-gradient(top, #ffe807 0%, #ffcc03 100%);
+  background: linear-gradient(180deg, #ffe807 0%, #ffcc03 100%);
+  box-shadow: 0 4rpx 8rpx 0 rgba(0, 0, 0, 0.1);
+  border: none;
+}
+

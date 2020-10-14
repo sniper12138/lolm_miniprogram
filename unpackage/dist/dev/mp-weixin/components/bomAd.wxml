@@ -1,0 +1,1 @@
+<view class="{{['tabbar '+(share?'flexCom':'')]}}"><block wx:if="{{share}}"><view data-event-opts="{{[['tap',[['goIndex',['$event']]]]]}}" class="btn share" bindtap="__e">英雄爆料</view></block><button class="{{['btn '+(share?'':'share')]}}" open-type="share">分享</button><view data-event-opts="{{[['tap',[['goQuan',['$event']]]]]}}" class="btn" bindtap="__e">内测资格</view></view>

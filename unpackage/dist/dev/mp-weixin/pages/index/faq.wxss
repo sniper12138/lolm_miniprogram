@@ -1,0 +1,185 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+page .main {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  background: #FFE807;
+}
+page .main .top {
+  padding: 10rpx 30rpx 30rpx;
+}
+page .main .top .search {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-radius: 999rpx;
+  position: relative;
+  height: 68rpx;
+  background: #FFF8C7;
+  box-shadow: 0 0 10rpx rgba(247, 248, 250, 0.6);
+}
+page .main .top .search input {
+  width: 90%;
+  display: block;
+  padding: 10rpx;
+  height: 100%;
+  font-size: 28rpx;
+}
+page .main .top .search .close {
+  width: 28rpx;
+  height: 28rpx;
+  position: absolute;
+  top: 50%;
+  margin-top: -14rpx;
+  right: 30rpx;
+  z-index: 9;
+}
+page .main .top .search .close image {
+  width: 100%;
+  height: 100%;
+}
+page .main .top .search .btn {
+  width: 10%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+page .main .top .search .btn .search-btn {
+  width: 28rpx;
+  height: 28rpx;
+}
+page .main .mid {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  border-radius: 40rpx 40rpx 0 0;
+  overflow: hidden;
+}
+page .main .mid .hotWord {
+  width: 100%;
+  overflow: auto;
+  padding: 38rpx 30rpx 20rpx;
+  background: #fff;
+}
+page .main .mid .hotWord .title {
+  font-size: 32rpx;
+  color: #808080;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-bottom: 20rpx;
+}
+page .main .mid .hotWord .title image {
+  width: 28rpx;
+  height: 28rpx;
+}
+page .main .mid .hotWord .title text {
+  padding-left: 20rpx;
+}
+page .main .mid .hotWord .list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+page .main .mid .hotWord .list .li {
+  font-size: 28rpx;
+  color: #333;
+  padding: 10rpx 16rpx;
+  background: #FFF8DB;
+  border-radius: 16rpx 16rpx 0 0;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+page .main .mid .faqList {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding: 10rpx 30rpx;
+  overflow: auto;
+  position: relative;
+  background: #fff;
+}
+page .main .mid .faqList .li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 28rpx 0;
+  border-bottom: 1rpx solid #F2F2F2;
+}
+page .main .mid .faqList .li .title {
+  width: 90%;
+  font-size: 32rpx;
+  padding-left: 20rpx;
+  color: #333;
+}
+page .main .mid .faqList .li .arrow {
+  width: 10%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  padding-right: 20rpx;
+}
+page .main .mid .faqList .li .arrow::before {
+  content: '';
+  display: block;
+  width: 20rpx;
+  height: 20rpx;
+  border: 2rpx solid #ccc;
+  border-width: 4rpx 0 0 4rpx;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+page .main .mid .faqList .nodata {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 24rpx;
+  color: #000;
+}
+

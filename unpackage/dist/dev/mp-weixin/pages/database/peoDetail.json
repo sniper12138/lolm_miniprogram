@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "英雄",
+  "navigationBarBackgroundColor": "#FFE807",
+  "usingComponents": {
+    "bomad": "/components/bomAd",
+    "jyf-parser": "/components/jyf-parser/jyf-parser"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "umtrack-alipay": "^2.3.5",
+    "umtrack-wx": "^2.3.5"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "小虎Hoo联盟手游播报站",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "list": "/components/list"
+  }
+}

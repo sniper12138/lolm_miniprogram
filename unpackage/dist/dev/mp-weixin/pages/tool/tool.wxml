@@ -1,0 +1,1 @@
+<view class="main"><view class="title">工具箱</view><view class="toolList"><view class="li" data-src="https://www.16163.com/zt/yys/xsfy/" data-event-opts="{{[['tap',[['goView',['$event']]]]]}}" bindtap="__e"><view class="name">阴阳师悬赏封印查询</view></view></view></view>

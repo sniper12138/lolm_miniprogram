@@ -1,0 +1,14 @@
+.main {
+  padding: 35rpx;
+}
+.main image {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.main .content {
+  font-size: 30rpx;
+  color: #C0C0C0;
+  padding: 20rpx 0 0;
+}
+
